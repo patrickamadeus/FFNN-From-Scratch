@@ -1,0 +1,13 @@
+[Jumlah layer (termasuk input dan output)]
+// untuk setiap layer:
+[Jumlah node pada current layer] [Jumlah layer pada layer selanjutnya] [pilihan activation function(0-3)]
+for i in range[0...currNodeLength]
+    for j in [1...dstNodeLenth]
+    W(i,1)...W(i,j); // i = node asal; j = node tujuan
+
+
+// Pilihan activation function:
+// 0 → linear
+// 1 → ReLU
+// 2 → sigmoid
+// 3 → softmax
