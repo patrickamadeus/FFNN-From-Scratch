@@ -1,3 +1,4 @@
 src/tmp/*
 !src/tmp/.gitkeep
 src/lib/
+src/.ipynb_checkpoints/
