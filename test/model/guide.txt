@@ -3,7 +3,7 @@
 [Jumlah node pada current layer] [Jumlah layer pada layer selanjutnya] [pilihan activation function(0-3)]
 for i in range[0...currNodeLength]
     for j in [1...dstNodeLenth]
-    W(i,1)...W(i,j); // i = node asal; j = node tujuan
+        W(i,1)...W(i,j); // i = node asal; j = node tujuan
 
 
 // Pilihan activation function:
